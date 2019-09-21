@@ -1,0 +1,36 @@
+@charset "utf-8";
+body {
+  background: #f0f8ff;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+.header {
+  background: #e6e6fa;
+  padding: 50px 0;
+}
+.main {
+  float:left;
+  background: #fa8072;
+  width:70%;
+  height: 600px;
+  line-height: 600px;
+}
+.side {
+  float:left;
+  background: #eeca89;
+  width:30%;
+  height: 600px;
+  line-height: 600px;
+}
+.footer {
+  clear:both;
+  background: #add8e6;
+  padding: 50px 0;
+}

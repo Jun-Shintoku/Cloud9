@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h2{
+  color: steelblue;
+  font-family: arial;
+  font-size: 35px;
+}
+
+.end_of_sentence{
+  margin-bottom: 25px;
+}
+
+/*wrap*/
+.wrap{
+  display: flex;
+}
+
+/*左カラム 縦幅はメインに合せて可変*/
+#left_column{
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  background-color: steelblue;
+}
+
+#left_column_logo{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#neaty{
+  color: white;
+  font-family:arial;
+  font-size: 40px;
+  margin-bottom: 120px;
+}
+
+#side_menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+#side_menu li:last-child a{
+  text-decoration: none;
+  color: khaki;
+}
+
+li{
+  text-align:left;
+  padding-left:30%;
+  padding-bottom: 50px;
+}
+
+/*メインコンテンツ*/
+.img1{
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#main_resizing{
+  margin-left: 80px;
+  margin-right: 60px;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+
+/*Welcome to Neaty Design*/
+#welcome {
+  color: steelblue;
+  font-family:arial;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+
+/*About the tham*/
+#about_the_tham{
+  margin-top:  100px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.img2{
+  width: 30%;
+  margin-right: 5%;
+}
+
+.msg_container{
+  width: 65%;
+}
+
+#about_us{
+  margin-bottom: 50px;
+}
+
+.readmore_btn{
+  display: block;
+  height: 50%;
+  line-height: 60px;
+	width: 40%;
+	color: white;
+  background: steelblue;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/*Gallery*/
+.gallery{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Gallery One*/
+#gallery_one{
+  margin-bottom: 30px;
+}
+
+.gallery_one_img{
+ width: 19%;
+}
+
+/*Second Gallery*/
+#second_gallery{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.second_gallery_img{
+  width: 32%;
+}
+
+/*Third Gallery*/
+#third_gallery{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.third_gallery_img{
+  width: 24%;
+}
+
+/*問い合わせフォーム*/
+#contect_us{
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+#table{
+  text-align: left;
+  width: 55%;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+input{
+  height: 2em;
+  width: 85%;
+  font-size: 20px;
+}
+
+textarea {
+  resize:none;
+  width: 85%;
+  font-size: 20px;
+}
